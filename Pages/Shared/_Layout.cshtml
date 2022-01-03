@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html style="background-color:#191919;" lang="en">
+<head>
+    <partial name="~/Pages/Shared/_GoogleTracking.cshtml" />
+    <script>
+        if (("; " + document.cookie).split("; " + "ColorScheme" + "=").pop().split(";").shift() === "light") {
+            document.getElementsByTagName('HTML')[0].style.backgroundColor = "white";
+        }
+
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azure 1</title>
+    <meta name="description" content="Azure. Cloud for all.  Turn your ideas into solutions faster using a trusted cloud that's designed for you.">
+    <meta name="keywords" content="Azure, Cloud, Microsoft, DevOps, AppDev, HTML,CSS,XML,JavaScript">
+    <meta name="author" content="email:harrison 'at' hotmail.co.uk">
+    <meta http-equiv="Content-Language" content="EN">
+    <link rel="canonical" href="https://azure1.dev/" />
+    <link rel="manifest" href="manifest.json">
+    <script type="module">
+       import 'https://cdn.jsdelivr.net/npm/@@pwabuilder/pwaupdate';
+       const el = document.createElement('pwa-update');
+       document.body.appendChild(el);
+    </script>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/site.min.css?rel=3d2048a6a0" />
+
+</head>
+<body class="preload">
+    <div id="idLoaded" style="display:none;">
+        <div id="idModal" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="idModalTitle"></h5>
+                        <button id="idModalClose" type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                    </div>
+                    <div class="modal-body" id="idModalBody">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="idServiceModal" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="idServiceModalTitle"></h5>
+                        <button id="idServiceModalClose" type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                    </div>
+                    <div class="modal-body" id="idServiceModalBody">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="idLightbox" class="modal" tabindex="-1">
+            <div class="modal-dialog ">
+                <div class="modal-content lightbox">
+                    <button type="button" class="close lightbox-close" data-dismiss="modal"><span>&times;</span></button>
+                    <div class="lightbox-body" id="idLightboxBody">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header class="header sticky">
+            <div class="container-fluid">
+                <div class="row ">
+                </div>
+            </div>
+        </header>
+        <div id="idNavButton" class="hamburger hamburger--arrow" onclick="toggleNav();">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </div>
+        <div id="idSiteTitle">
+            <h1>Azure 1</h1>
+        </div>
+        <div id="idMainContent">
+            @RenderBody()
+        </div>
+        <div id="idNavSidebar" class="sidenav">
+            <br />
+            <div id="idNavSidebarContent">
+                <br />
+                <p>
+                    <span class="iconsidebar" onclick="doInfo();">
+                        <i class='icon-white_fa-info iconfa20xp'></i>About
+                    </span>
+                </p>
+                <p>
+                    <span class="iconsidebar" onclick="doConfig();">
+                        <i class='icon-white_fa-cogs iconfa20xp'></i>Config
+                    </span>
+                </p>
+                <p>
+                    <span class="iconsidebar" onclick="window.open('https://news.azure1.dev','_blank');">
+                        <i class='icon-white_fa-news iconfa20xp'></i>Azure&nbsp;Latest&nbsp;News
+                    </span>
+                </p>
+                <br />
+                <br />
+                <p>
+                    Powered&nbsp;by&nbsp;Azure&nbsp;<i class='icon-white_az-azure iconfa30xp'></i>
+                </p>
+                <p>Provided "as is" with no warranties, and confer no rights.</p>
+                <p>Mark&nbsp;Harrison</p>
+                <p>
+                    <small>Updated 1 Jan 2022</small>
+                </p>
+            </div>
+        </div>
+        <div id="idNavOverlay" onclick="toggleNav();"></div>
+    </div>
+
+    @* unpkg?meta *@
+    <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"
+            integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/web-animations-js@2.3.1/web-animations.min.js"
+            integrity="sha384-cRASoUrvi1+npT/Me5gqMS2w+bk/FB2C6tMPA/Xy62eyguoMN7Ofc4TPsv0jNVCh" crossorigin="anonymous"></script>
+@*    <script src="https://unpkg.com/muuri@0.7.1/dist/muuri.min.js"
+            integrity="sha384-H5lgAcTvydjqVuIeFy9Cdby5OiIBtJxjGFyEmWUlivaNwiWFceqjHOU6MsqFTHpJ" crossorigin="anonymous"></script>*@
+@*    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"
+            integrity="sha384-9OezGwnkJ62jSy0+7EenS8wJsk+68345cnyKdI05K18VrGrqCJkTndIc1ynsOqvD" crossorigin="anonymous"></script>*@
+
+        <script src="https://unpkg.com/muuri@0.9.5/dist/muuri.min.js"
+        integrity="sha384-pjx/ohA+FGGT1DkH8NeTscW3x2H82LwvD4gfQIvtJ8JY5UjIdU82eel4/J5pCj8D" crossorigin="anonymous"></script>
+
+    <script src="/js/site.min.js?rel=b5e4f539b8"></script>
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

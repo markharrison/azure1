@@ -1,0 +1,21 @@
+{
+  "background_color": "#ffffff",
+  "description": "Azure. Cloud for all.  Turn your ideas into solutions faster using a trusted cloud.",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "name": "Azure1",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Azure1",
+  "start_url": "/",
+  "theme_color": "#343a40",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": []
+}

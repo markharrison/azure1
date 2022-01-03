@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Azure 1";
+}
+<hr />
+@Html.Raw(Model.strFilter)
+<hr />
+@Html.Raw(Model.strGrid)
+<br />
+@Html.Raw(Model.strModalInfo)
+<br />
+<!--
+@Html.Raw(Model.strTime)
+-->
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            doIndexReady();
+        });
+    </script>
+}

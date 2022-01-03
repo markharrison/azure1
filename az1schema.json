@@ -1,0 +1,125 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "JSON Schema for my JSON file format",
+  "type": "object",
+  "required": [ "name", "version" ],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "product": {
+      "type": "object",
+      "required": [ "name", "categories" ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [ "name", "icon", "services" ],
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "icon": {
+                "type": "string"
+              },
+              "services": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [ "name", "icon" ],
+                  "additionalProperties": false,
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "service": {
+                      "type": "string",
+                      "optional": true
+                    },
+                    "feature": {
+                      "type": "string",
+                      "optional": true
+                    },
+                    "pricing": {
+                      "type": "string",
+                      "optional": true
+                    },
+                    "docs": {
+                      "type": "string",
+                      "optional": true
+                    },
+                    "text": {
+                      "type": "string",
+                      "optional": true
+                    },
+                    "content": {
+                      "type": "array",
+                      "optional": true,
+                      "items": {
+                        "type": "object",
+                        "required": [ "item" ],
+                        "properties": {
+                          "item": {
+                            "type": "string",
+                            "oneOf": [
+                              {
+                                "type": "string",
+                                "enum": [ "link", "space", "ppt", "pdf", "YTvideo", "C9video","slide" ]
+                              }
+                            ]
+                          },
+                          "text": {
+                            "type": "string",
+                            "optional": true
+                          },
+                          "url": {
+                            "type": "string",
+                            "optional": true
+                          }
+                        }
+                      }
+
+                    },
+                    "related": {
+                      "type": "array",
+                      "optional": true,
+                      "items": {
+                        "type": "object",
+                        "required": [ "name" ],
+                        "properties": {
+                          "name": {
+                            "type": "string"
+                          },
+                          "icon": {
+                            "type": "string",
+                            "optional": true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

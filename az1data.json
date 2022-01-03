@@ -1,0 +1,4658 @@
+﻿{
+  "author": "Mark Harrison",
+  "name": "azure1.dev",
+  "version": "2021.12.17",
+  "product": {
+    "name": "Azure",
+    "categories": [
+      {
+        "name": "Trustworthiness",
+        "icon": "trustworthiness",
+        "services": [
+          {
+            "name": "Hyper-Scale",
+            "icon": "reliability",
+            "content": [
+              {
+                "item": "link",
+                "text": "Azure Regions",
+                "url": "*ams*/global-infrastructure/geographies/"
+              },
+              {
+                "item": "link",
+                "text": "Azure Infrastructure Map",
+                "url": "https://infrastructuremap.microsoft.com/"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/roadmap/",
+                "text": "Azure roadmap"
+              },
+              {
+                "item": "YTvideo",
+                "text": "Microsoft Global Datacenters and Network Infrastructure",
+                "url": "koSKZRfxkIA"
+              },
+              {
+                "item": "YTvideo",
+                "text": "Inside Azure datacenter architecture",
+                "url": "69PrhWQorEM"
+              }
+
+            ]
+          },
+          {
+            "name": "Leadership",
+            "icon": "vision",
+            "content": [
+              {
+                "item": "link",
+                "url": "www.microsoft.com/en-us/legal/compliance/sbc/default.aspx",
+                "text": "Standards of Business Conduct"
+              },
+              {
+                "item": "link",
+                "url": "www.microsoft.com/en-us/AI/our-approach-to-ai",
+                "text": "Microsoft AI principles"
+              },
+              {
+                "item": "space"
+
+              },
+              {
+                "item": "link",
+                "text": "Azure IP Advantage - Protecting Innovation",
+                "url": "*ams*/overview/azure-ip-advantage/"
+              },
+              {
+                "item": "YTvideo",
+                "text": "IP Advantage",
+                "url": "qRQqYn1mmG8"
+              }
+            ]
+          },
+          {
+            "name": "Security",
+            "icon": "security",
+            "content": [
+              {
+                "item": "link",
+                "url": "www.microsoft.com/trustcenter",
+                "text": "Overview - Security"
+              },
+              {
+                "item": "link",
+                "text": "Documentation - Azure Security",
+                "url": "*docs*/security/azure-security-getting-started"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/en-gb/marketplace/?term=security",
+                "text": "Marketplace - Security"
+              },
+              {
+                "item": "YTvideo",
+                "text": "Next Generation Windows Security Vision",
+                "url": "IvZySDNfNpo"
+              },
+              {
+                "item": "link",
+                "text": "Cybersecurity Resources @MarkSimos",
+                "url": "aka.ms/markslist"
+              }
+            ],
+            "related": [
+              {
+                "name": "Sentinel"
+              },
+              {
+                "name": "Security Center"
+              },
+              {
+                "name": "Enterprise Mobility and Security Suite"
+              },
+              {
+                "name": "Dedicated HSM"
+              },
+              {
+                "name": "Azure Key Vault"
+              }
+            ]
+          },
+          {
+            "name": "Transparency",
+            "icon": "transparency",
+            "content": [
+              {
+                "item": "link",
+                "url": "www.microsoft.com/en-us/trustcenter/about/transparency",
+                "text": "Overview - Transparency"
+              }
+            ]
+          },
+          {
+            "name": "Regulatory Compliance",
+            "icon": "regulatory",
+            "content": [
+              {
+                "item": "link",
+                "url": "www.microsoft.com/en-us/trustcenter/compliance",
+                "text": "Overview - Compliance"
+              },
+              {
+                "item": "link",
+                "url": "servicetrust.microsoft.com",
+                "text": "Compliance Reports - Service Trust Portal"
+              }
+
+            ]
+          },
+          {
+            "name": "Privacy",
+            "icon": "privacy",
+            "content": [
+              {
+                "item": "link",
+                "url": "www.microsoft.com/en-us/TrustCenter/Privacy",
+                "text": "Overview - Privacy"
+              },
+              {
+                "item": "link",
+                "url": "www.microsoft.com/gdpr",
+                "text": "General Data Protection Regulation (GDPR)"
+              }
+            ]
+          },
+
+          {
+            "name": "Environmental Sustainability",
+            "icon": "environment",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/global-infrastructure/sustainability/",
+                "text": "Azure sustainability"
+              },
+              {
+                "item": "link",
+                "url": "*ms*/en-us/corporate-responsibility/sustainability",
+                "text": "Microsoft Corporate Responsibility"
+              },
+              {
+                "item": "link",
+                "url": "*ms*/aiforearth",
+                "text": "AI for Earth"
+              },
+              {
+                "item": "link",
+                "url": "https://devblogs.microsoft.com/sustainable-software/",
+                "text": "Sustainable Software blog"
+              },
+              {
+                "item": "link",
+                "url": "https://cloudblogs.microsoft.com/industry-blog/en-gb/technetuk/2021/08/19/sustainability-and-green-software-engineering/",
+                "text": "Sustainability and Green Software Engineering"
+              },
+              {
+                "item": "YTvideo",
+                "url": "Tcvr30NRWmA",
+                "text": "Green Software Engineering"
+              }
+            ]
+          },
+          {
+            "name": "Support",
+            "icon": "support",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/support/plans/",
+                "text": "Support plans"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/offers/enterprise-agreement-support-upgrade",
+                "text": "EA Support free upgrade"
+              }
+            ]
+          },
+          {
+            "name": "Partner Ecosystem",
+            "icon": "partnership",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/partners/directory/",
+                "text": "Technology and service partners"
+              },
+              {
+                "item": "link",
+                "url": "https://azuremarketplace.microsoft.com/marketplace/apps",
+                "text": "Azure Marketplace"
+              },
+              {
+                "item": "link",
+                "url": "partner.microsoft.com",
+                "text": "Partner Network"
+              },
+              {
+                "item": "link",
+                "url": "partner.microsoft.com/cloud-solution-provider/",
+                "text": "Cloud Solution Provider program"
+              }
+            ]
+          },
+          {
+            "name": "Research",
+            "icon": "research",
+            "content": [
+              {
+                "item": "link",
+                "url": "microsoft.com/research",
+                "text": "Microsoft Research"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "text": "Microsoft Quantum",
+                "url": "microsoft.com/quantum"
+              },
+              {
+                "item": "YTvideo",
+                "url": "cOUrzxyng04",
+                "text": "Quantum computing"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "http://natick.research.microsoft.com",
+                "text": "Project Natick"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Compute",
+        "icon": "compute",
+        "services": [
+          {
+            "name": "Virtual Machines",
+            "icon": "virtualmachine",
+            "text": "Windows Server and Linux virtual machines",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/virtual-machines/"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/pricing/hybrid-benefit/",
+                "text": "Azure Hybrid Benefit"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/virtual-machines/windows",
+                "text": "Windows VMs Pricing"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/virtual-machines/windows",
+                "text": "Windows VMs Documentation"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/virtual-machines/linux",
+                "text": "Linux VMsPricing"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/virtual-machines/linux",
+                "text": "Linux VMs Documentation"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "www.azureprice.net",
+                "text": "Azure VM Comparison / Pricer"
+              }
+            ],
+
+            "related": [
+              {
+                "name": "VM Scale Sets"
+              },
+              {
+                "name": "VM Image Builder"
+              },
+              {
+                "name": "Windows VMs",
+                "icon": "vmwindows"
+              },
+              {
+                "name": "LINUX VMs",
+                "icon": "vmlinux"
+              },
+              {
+
+                "name": "Azure Dedicated Host"
+              }
+            ]
+          },
+          {
+            "name": "Azure Dedicated Host",
+            "icon": "dedicatedhost",
+            "text": "Windows Server and Linux virtual machines",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/virtual-machines/dedicated-host/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/virtual-machines/dedicated-host/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/virtual-machines/windows/dedicated-hosts"
+              }
+            ],
+
+            "related": [
+              {
+                "name": "Windows VMs",
+                "icon": "vmwindows"
+              },
+              {
+                "name": "LINUX VMs",
+                "icon": "vmlinux"
+              },
+              {
+                "name": "Virtual Machines"
+              }
+            ]
+          },
+          {
+            "name": "Azure App Service",
+            "icon": "appservice",
+            "service": "app-service",
+            "pricing": "*",
+            "docs": "*",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/app-service/web/",
+                "text": "Web Apps"
+              },
+              {
+                "item": "link",
+                "url": "*service*/app-service/api/",
+                "text": "API Apps"
+              },
+              {
+                "item": "link",
+                "url": "*service*/app-service/mobile/",
+                "text": "Mobile Apps"
+              },
+              {
+                "item": "link",
+                "url": "*service*/app-service/containers/",
+                "text": "Web App for Containers"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "https://appmigration.microsoft.com/",
+                "text": "Migrate to Azure App Service"
+              }
+
+            ],
+            "related": [
+              {
+                "name": "Web Apps",
+                "icon": "webapps"
+              },
+              {
+                "name": "API Apps",
+                "icon": "apiapps"
+              },
+              {
+                "name": "Mobile Apps",
+                "icon": "mobileapps"
+              },
+              {
+                "name": "Azure Logic Apps"
+              },
+              {
+                "name": "Azure API Management"
+              }
+            ]
+          },
+          {
+            "name": "Azure Functions",
+            "icon": "functions",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/functions/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/functions/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/functions/"
+              },
+              {
+                "item": "C9video",
+                "url": "Blogs/Azure/Azure-Functions-overview",
+                "text": "Azure Functions overview"
+              },
+              {
+                "item": "link",
+                "url": "https://serverlesslibrary.net/",
+                "text": "Azure serverless community library"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure App Service"
+              }
+            ]
+          },
+          {
+            "name": "Azure Container Apps",
+            "icon": "containerapps",
+            "service": "container-apps",
+            "pricing": "*",
+            "docs": "*",
+            "content": [
+            ],
+            "related": [
+              {
+                "name": "Azure Container Registry"
+              }
+            ]
+          },
+          {
+            "name": "Azure Static Web Apps",
+            "icon": "staticwebsites",
+            "service": "/app-service/static/",
+            "pricing": "*",
+            "docs": "static-web-apps",
+            "content": [
+            ],
+            "related": [
+
+            ]
+          },
+          {
+            "name": "Azure Virtual Desktop",
+            "icon": "windowsvd",
+            "service": "virtual-desktop",
+            "pricing": "*",
+            "docs": "*",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/virtual-desktop/citrix-virtual-apps-desktops-for-azure/",
+                "text": "Citrix Virtual Apps and Desktops for Azure"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/en-us/services/virtual-desktop/vmware-horizon-cloud/",
+                "text": "VMware Horizon Cloud on Azure"
+              }
+            ],
+            "related": [
+            ]
+          },
+          {
+            "name": "Azure Container Instances",
+            "icon": "containerinstances",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/container-instances/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/container-instances/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/container-instances/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Container Registry"
+              }
+            ]
+          },
+          {
+            "name": "Azure Cloud Services",
+            "icon": "cloudservices",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/cloud-services/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/cloud-services/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/cloud-services/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Quantum",
+            "icon": "quantum",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/quantum/"
+              },
+              {
+                "item": "link",
+                "text": "Quantum Development Kit",
+                "url": "*ms*/quantum/development-kit"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Orchestration / Platforms",
+        "icon": "orchestration",
+        "services": [
+          {
+            "name": "VM Scale Sets",
+            "icon": "vmscalesets",
+            "related": [
+              {
+                "name": "Virtual Machines"
+              }
+            ],
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/virtual-machine-scale-sets/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/virtual-machine-scale-sets/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/virtual-machine-scale-sets/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Kubernetes Service",
+            "icon": "aks",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/kubernetes-service/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/kubernetes-service/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/aks/"
+              },
+              { "item": "space" },
+              {
+                "item": "link",
+                "text": "Kubernetes",
+                "url": "www.kubernetes.io"
+              },
+              {
+                "item": "link",
+                "text": "Microsoft and Docker",
+                "url": "www.docker.com/microsoft"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Container Registry"
+              }
+            ]
+          },
+          {
+            "name": "Service Fabric",
+            "icon": "servicefabric",
+            "text": "Build and operate always-on, scalable, distributed apps",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/service-fabric/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/service-fabric/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/service-fabric/"
+              },
+              {
+                "item": "C9video",
+                "url": "Blogs/Azure/Azure-Service-Fabric",
+                "text": "Azure Service Fabric"
+              }
+
+            ]
+          },
+          {
+            "name": "Batch",
+            "icon": "batch",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/batch/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/batch/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/batch/"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "text": "Batch Rendering",
+                "url": "*service*/batch/rendering"
+              },
+              {
+                "item": "link",
+                "text": "Batch AI",
+                "url": "*service*/batch-ai"
+              }
+
+            ]
+          },
+          {
+            "name": "Azure Automation",
+            "icon": "azureautomation",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/automation/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/automation/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/automation/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Cyclecloud",
+            "icon": "cyclecloud",
+            "feature": "/azure-cyclecloud/"
+          },
+          {
+            "name": "Azure Red Hat OpenShift",
+            "icon": "openshift",
+            "service": "/openshift/",
+            "pricing": "*",
+            "docs": "*"
+          },
+          {
+            "name": "Azure Spring Cloud",
+            "icon": "springcloud",
+            "service": "/spring-cloud/",
+            "pricing": "*",
+            "docs": "*"
+          },
+          {
+            "name": "Azure VMWare Solution",
+            "icon": "vmwarecloud",
+            "content": [
+              {
+                "item": "link",
+                "text": "Azure VMware Solution by CloudSimple",
+                "url": "*service*/azure-vmware-cloudsimple/"
+              },
+              {
+                "item": "link",
+                "text": "Azure VMware Solution by CloudSimple pricing",
+                "url": "*pricing*/azure-vmware-cloudsimple/"
+              }
+            ]
+          },
+          {
+            "name": "Scheduler",
+            "icon": "scheduler",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/scheduler/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/scheduler/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/scheduler/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Networking",
+        "icon": "networking",
+        "services": [
+          {
+            "name": "Virtual Networks",
+            "icon": "virtualnetwork",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/virtual-network/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/virtual-network/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/virtual-network/"
+              }
+            ]
+          },
+          {
+            "name": "VPN Gateway",
+            "icon": "vpngateway",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/vpn-gateway/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/vpn-gateway/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/vpn-gateway/"
+              }
+            ]
+          },
+          {
+            "name": "ExpressRoute",
+            "icon": "expressroute",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/expressroute/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/expressroute/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/expressroute/"
+              }
+            ]
+          },
+          {
+            "name": "Load Balancer",
+            "icon": "loadbalancer",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/load-balancer/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/load-balancer/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/load-balancer/"
+              }
+            ]
+          },
+          {
+            "name": "Application Gateway",
+            "icon": "applicationgateway",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/application-gateway/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/application-gateway/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/application-gateway/"
+              }
+            ],
+            "related": [
+              {
+                "name": "DDoS Protection"
+              },
+              {
+                "name": "Web Application Firewall"
+              }
+            ]
+          },
+          {
+            "name": "Front Door",
+            "icon": "frontdoor",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/frontdoor/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/frontdoor/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/frontdoor/"
+              }
+            ],
+            "related": [
+              {
+                "name": "DDoS Protection"
+              },
+              {
+                "name": "Web Application Firewall"
+              }
+
+            ]
+          },
+          {
+            "name": "Traffic Manager",
+            "icon": "trafficmanager",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/traffic-manager/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/traffic-manager/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/traffic-manager/"
+              }
+            ]
+          },
+          {
+            "name": "Private Link",
+            "icon": "privatelink",
+            "service": "private-link",
+            "pricing": "*",
+            "docs": "*"
+          },
+          {
+            "name": "Hybrid Connection",
+            "icon": "hybridconnection",
+            "content": [
+              {
+                "item": "link",
+                "text": "Overview - Hybrid Connections",
+                "url": "*docs*/biztalk-services/integration-hybrid-connection-overview"
+              },
+              {
+                "item": "link",
+                "text": "Overview - App Service Hybrid Connections",
+                "url": "*docs*/app-service/app-service-hybrid-connections"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure App Service"
+              },
+              {
+                "name": "Azure Functions"
+              },
+              {
+                "name": "Azure Logic Apps"
+              }
+            ]
+          },
+          {
+            "name": "Azure DNS",
+            "icon": "dns",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/dns/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/dns/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/dns/"
+              }
+            ]
+          },
+          {
+            "name": "CDN",
+            "icon": "cdn",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/cdn/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/cdn/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/cdn/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Firewall",
+            "icon": "firewall",
+            "service": "azure-firewall",
+            "pricing": "*",
+            "docs": "/firewall/",
+            "content": [
+              {
+                "item": "link",
+                "text": "Firewall Manager",
+                "url": "*service*/firewall-manager/"
+              },
+              {
+                "item": "link",
+                "text": "Firewall Manager pricing",
+                "url": "*pricing*/firewall-manager/"
+              },
+              {
+                "item": "link",
+                "text": "Firewall Manager pricing",
+                "url": "*docs*/firewall-manager/"
+              }
+            ]
+          },
+          {
+            "name": "Web Application Firewall",
+            "icon": "waf",
+            "service": "web-application-firewall",
+            "pricing": "*",
+            "docs": "*",
+            "related": [
+              {
+                "name": "Front Door"
+              },
+              {
+                "name": "Application Gateway"
+              }
+            ]
+          },
+          {
+            "name": "Virtual WAN",
+            "icon": "virtualwan",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/virtual-wan/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/virtual-wan/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/virtual-wan/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Bastion",
+            "icon": "bastion",
+            "service": "/azure-bastion/",
+            "pricing": "*",
+            "docs": "/bastion/",
+            "related": [
+              {
+                "name": "Virtual Machines"
+              },
+              {
+                "name": "Virtual Networks"
+              }
+            ]
+          },
+          {
+            "name": "Azure Route Server",
+            "icon": "routeserver",
+            "service": "route-server",
+            "docs": "*",
+            "related": [
+            ]
+          },
+          {
+            "name": "DDoS Protection",
+            "icon": "ddosprotection",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/ddos-protection/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/ddos-protection/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/virtual-network/ddos-protection-overview/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Orbital",
+            "icon": "orbital",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/orbital/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/networking/azure-orbital-overview"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Identity",
+        "icon": "identity",
+        "services": [
+          {
+            "name": "Azure Active Directory",
+            "icon": "aad",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/active-directory/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/active-directory/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/active-directory/"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "azuremarketplace.microsoft.com/marketplace/apps/category/identity",
+                "text": "SaaS cloud applications supporting Azure AD single sign-on and full user management "
+              }
+            ],
+            "related": [
+              {
+                "name": "Enterprise Mobility and Security Suite"
+              },
+              {
+                "name": "Multi-Factor Authentication"
+              }
+            ]
+          },
+          {
+            "name": "Multi-Factor Authentication",
+            "icon": "mfa",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/multi-factor-authentication/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/multi-factor-authentication/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/multi-factor-authentication/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Active Directory"
+              }
+            ]
+          },
+          {
+            "name": "Azure Information Protection",
+            "icon": "infoprotection",
+            "content": [
+              {
+                "item": "link",
+                "text": "Overview",
+                "url": "www.microsoft.com/cloud-platform/azure-information-protection"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Active Directory"
+              }
+            ]
+          },
+          {
+            "name": "AAD External Identities",
+            "icon": "aadb2c",
+            "service": "active-directory/external-identities/",
+            "pricing": "*",
+            "docs": "*",
+            "content": [
+              {
+                "item": "link",
+                "url": "*docs*/active-directory-b2c/",
+                "text": "Azure AD B2C Documentation"
+              }
+            ],
+            "related": [
+              {
+                "name": "AAD B2C",
+                "icon": "aadb2c"
+              },
+              {
+                "name": "AAD B2B",
+                "icon": "aadb2b"
+              }
+            ]
+          },
+          {
+            "name": "AAD Domain Services",
+            "icon": "aadds",
+            "text": "Azure Active Directory - Domain Services",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/active-directory-ds/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/active-directory-ds/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/active-directory-domain-services/"
+              }
+            ]
+          },
+          {
+            "name": "Enterprise Mobility and Security Suite",
+            "icon": "ems",
+            "content": [
+              {
+                "item": "link",
+                "url": "www.microsoft.com/cloud-platform/enterprise-mobility-products",
+                "text": "*ms*/enterprise-mobility-security"
+              },
+              {
+                "item": "link",
+                "url": "*ms*/security/technology/identity-access-management",
+                "text": "Identity Manager Overview"
+              },
+              {
+                "item": "link",
+                "url": "*ms*/security/technology/information-protection",
+                "text": "Information Protection"
+              },
+              {
+                "item": "link",
+                "url": "*ms*/security/technology/threat-protection",
+                "text": "Threat Protection"
+              },
+              {
+                "item": "link",
+                "url": "*ms*/enterprise-mobility-security/microsoft-intune",
+                "text": "Unified endpoint management"
+              },
+              {
+                "item": "link",
+                "url": "*ms*/enterprise-mobility-security/cloud-app-security",
+                "text": "Cloud App Security"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Active Directory"
+              },
+              {
+                "name": "Intune",
+                "icon": "intune"
+              },
+              {
+                "name": "Azure Information Protection"
+              },
+              {
+                "name": "Advanced Threat Analytics",
+                "icon": "ata"
+              },
+              {
+                "name": "Cloud App Secuity",
+                "icon": "cloudappsec"
+              },
+              {
+                "name": "Identity Manager",
+                "icon": "identitymanager"
+              },
+              {
+                "name": "Security"
+              },
+              {
+                "name": "Business Productivity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Storage",
+        "icon": "datastorage",
+        "services": [
+          {
+            "name": "Azure Cloud Storage",
+            "icon": "storageazure",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/storage/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/storage/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/storage/"
+              },
+              { "item": "space" },
+              {
+                "item": "link",
+                "url": "*service*/storage/blobs/",
+                "text": "Blob Storage"
+              },
+              {
+                "item": "link",
+                "url": "*service*/storage/files/",
+                "text": "Files Storage"
+              },
+              {
+                "item": "link",
+                "url": "*service*/storage/queues/",
+                "text": "Queue Storage"
+              },
+              {
+                "item": "link",
+                "url": "*service*/storage/tables/",
+                "text": "Table Storage"
+              },
+              {
+                "item": "link",
+                "url": "*service*/storage/disks/",
+                "text": "Disk Storage"
+              },
+              {
+                "item": "link",
+                "url": "*service*/storage/archive/",
+                "text": "Archive Storage"
+              },
+              { "item": "space" },
+              {
+                "item": "C9video",
+                "url": "Blogs/Azure/IntroductiontoAzureStorage",
+                "text": "Introduction to Azure Storage"
+              },
+              { "item": "space" },
+              {
+                "item": "link",
+                "url": "storageexplorer.com",
+                "text": "Storage Explorer download"
+              }
+            ],
+            "related": [
+              {
+                "name": "Blob Storage",
+                "icon": "storageblob"
+              },
+              {
+                "name": "File Storage",
+                "icon": "storagefile"
+              },
+              {
+                "name": "Disk Storage",
+                "icon": "storagedisk"
+              },
+              {
+                "name": "Table Storage"
+              },
+              {
+                "name": "Queue Storage",
+                "icon": "storagequeue"
+              },
+              {
+                "name": "Archive Storage",
+                "icon": "storagearchive"
+              },
+              {
+                "name": "Storage Explorer",
+                "icon": "storageexplorer"
+              }
+            ]
+          },
+          {
+            "name": "Managed Disks",
+            "icon": "manageddisks",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/managed-disks/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/managed-disks/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/virtual-machines/windows/managed-disks-overview/"
+              }
+            ]
+          },
+          {
+            "name": "Data Lake Store",
+            "icon": "datalakestore",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/data-lake-store/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/data-lake-store/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/data-lake-store/"
+              }
+            ]
+          },
+          {
+            "name": "Azure NetApp Files",
+            "icon": "netapp",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/storage/netapp/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/storage/netapp/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/azure-netapp-files//"
+              },
+              { "item": "space" },
+              {
+                "item": "link",
+                "url": "*ams*/resources/videos/azure-netapp-files-overview/",
+                "text": "Video - Azure NetApp Files Overview"
+              }
+            ]
+          },
+          {
+            "name": "Azure Confidential Ledger",
+            "icon": "confidentialledger",
+            "service": "azure-confidential-ledger",
+            "pricing": "confidential-ledger",
+            "docs": "confidential-ledger"
+          },
+          {
+            "name": "Azure HPC Cache",
+            "icon": "hpccache",
+            "service": "hpc-cache",
+            "pricing": "*",
+            "docs": "*"
+          },
+          {
+            "name": "Data Share",
+            "icon": "datashare",
+            "service": "data-share",
+            "pricing": "*",
+            "docs": "*"
+          },
+          {
+            "name": "Avere vFXT for Azure",
+            "icon": "averevfxt",
+            "service": "storage/avere-vfxt/",
+            "docs": "avere-vfxt"
+
+          }
+        ]
+      },
+      {
+        "name": "Databases",
+        "icon": "database",
+        "services": [
+          {
+            "name": "Azure SQL Database",
+            "icon": "sqldatabase",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/products/azure-sql/database/",
+                "text": "Overview"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/azure-sql-database/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/azure-sql/database"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/services/virtual-machines/sql-server/",
+                "text": "SQL Server on Azure VMs "
+              }
+
+            ]
+          },
+          {
+            "name": "Azure SQL Managed Instance",
+            "icon": "sqlmanagedinstance",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/products/azure-sql/managed-instance/",
+                "text": "Overview"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/azure-sql-managed-instance/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/azure-sql/managed-instance/"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/services/virtual-machines/sql-server/",
+                "text": "SQL Server on Azure VMs "
+              }
+
+            ]
+          },
+          {
+            "name": "Azure Database for MySQL",
+            "icon": "dbmysql",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/mysql/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/mysql/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/mysql/"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/en-gb/marketplace/?term=sql+server",
+                "text": "SQL Server on Azure VMs "
+              }
+
+            ]
+          },
+          {
+            "name": "Azure Database for PostgreSQL",
+            "icon": "dbpostgresql",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/postgresql/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/postgresql/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/postgresql/"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/en-gb/marketplace/?term=sql+server",
+                "text": "SQL Server on Azure VMs "
+              }
+
+            ]
+          },
+          {
+            "name": "Azure Database for MariaDB",
+            "icon": "dbmaria",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/mariadb/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/mariadb/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/mariadb/"
+              }
+
+            ]
+          },
+          {
+            "name": "Azure Managed Instance for Apache Cassandra",
+            "icon": "cassandramanagedinstance",
+            "service": "managed-instance-apache-cassandra",
+            "pricing": "*",
+            "docs": "*",
+            "content": [
+            ]
+          },
+          {
+            "name": "SQL Stretch Database",
+            "icon": "sqlstretch",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/sql-server-stretch-database/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/sql-server-stretch-database/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/sql-server-stretch-database/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Cosmos DB",
+            "icon": "cosmosdb",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/cosmos-db/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/cosmos-db/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/cosmos-db/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Cache for Redis",
+            "icon": "rediscache",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/cache/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/cache/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/azure-cache-for-redis/"
+              }
+            ]
+          },
+          {
+            "name": "Table Storage",
+            "icon": "storagetable",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/storage/tables/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/storage/tables/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/storage/tables/table-storage-overview"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Cloud Storage"
+              }
+            ]
+          },
+          {
+            "name": "Azure SQL Edge",
+            "icon": "sqldatabaseedge",
+            "service": "/sql-database-edge/",
+            "pricing": "*"
+          }
+        ]
+      },
+      {
+        "name": "Integration",
+        "icon": "integration",
+        "services": [
+          {
+            "name": "Azure Logic Apps",
+            "icon": "logicapps",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/logic-apps/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/logic-apps/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/logic-apps/"
+              },
+              {
+                "item": "link",
+                "text": "Integration Services ",
+                "url": "aka.ms/integrationpaper"
+              },
+              {
+                "item": "link",
+                "text": "Integration Services Architecture",
+                "url": "aka.ms/aisarch"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/connectors/apis-list#az",
+                "text": "List of Connectors"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/logic-apps/logic-apps-enterprise-integration-overview",
+                "text": "B2B and Integration Pack"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/solutions/hybrid-integration/",
+                "text": "Hybrid Integration"
+              },
+              {
+                "item": "YTvideo",
+                "url": "ksU5OCf3cn0",
+                "text": "Introducing Azure Logic Apps"
+              },
+              {
+                "item": "link",
+                "url": "https://serverlesslibrary.net/",
+                "text": "Azure serverless community library"
+              }
+            ]
+          },
+          {
+            "name": "Azure Event Grid",
+            "icon": "eventgrid",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/event-grid/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/event-grid/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/event-grid/"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "YTvideo",
+                "url": "nrp_XIClQM8",
+                "text": "Azure Event Grid"
+              },
+              {
+                "item": "YTvideo",
+                "url": "p8ia7J4Y7tI",
+                "text": "Azure Event Grid Overview"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Logic Apps"
+              }
+            ]
+          },
+          {
+            "name": "Azure Data Factory",
+            "icon": "datafactory",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/data-factory/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/data-factory/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/data-factory/"
+              }
+            ]
+          },
+          {
+            "name": "Azure API Management",
+            "icon": "apimanagement",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/api-management/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/api-management/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/api-management/"
+              },
+              {
+                "item": "YTvideo",
+                "text": "Azure API Management Overview",
+                "url": "0yf_xm5cPIo"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "text": "Power BI solution template",
+                "url": "https://blogs.msdn.microsoft.com/apimanagement/2017/09/27/power-bi-solution-template/"
+              },
+              {
+                "item": "link",
+                "text": "Azure API Management Analytics",
+                "url": "https://appsource.microsoft.com/en-us/product/web-apps/microsoft-powerbi.pbisolntemplate_apimanagement"
+              },
+              {
+                "item": "YTvideo",
+                "text": "Azure API Management Analytics solution template for Power BI",
+                "url": "nffXJ7bEKaQ"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure App Service"
+              },
+              {
+                "name": "Azure Functions"
+              },
+              {
+                "name": "Azure Logic Apps"
+              }
+            ]
+          },
+          {
+            "name": "Azure Service Bus",
+            "icon": "servicebus",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/service-bus/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/service-bus/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/service-bus/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Logic Apps"
+              }
+            ]
+          },
+          {
+            "name": "BizTalk Server",
+            "icon": "biztalk",
+            "content": [
+              {
+                "item": "link",
+                "text": "BizTalk Server",
+                "url": "www.microsoft.com/cloud-platform/biztalk"
+              },
+              {
+                "item": "link",
+                "text": "BizTalk Server on Azure VMs",
+                "url": "azuremarketplace.microsoft.com/marketplace/apps?search=biztalk%20server"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Logic Apps"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Analytics / Insights",
+        "icon": "insights",
+        "services": [
+          {
+            "name": "HD Insight",
+            "icon": "hdinsight",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/hdinsight/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/hdinsight/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/hdinsight/"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/hdinsight/spark/apache-spark-overview",
+                "text": "Apache Spark for HDInsight"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/hdinsight/storm/apache-storm-overview",
+                "text": "Apache Storm for HDInsight"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/hdinsight/hadoop/apache-hadoop-introduction",
+                "text": "Apache Hadoop for HDInsight"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/hdinsight/kafka/apache-kafka-introduction",
+                "text": "Apache Kafka for HDInsight"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/hdinsight/hbase/apache-hbase-overview",
+                "text": "Apache HBase for HDInsight"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/hdinsight/interactive-query/apache-interactive-query-get-started",
+                "text": "Apache Hive LLAP (Interactive Query) for HDInsight"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/hdinsight/r-server/r-server-overview",
+                "text": "R Server for HDInsight"
+              }
+            ]
+          },
+          {
+            "name": "Synapse Analytics",
+            "icon": "sqldatawarehouse",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/synapse-analytics/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/synapse-analytics/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/synapse-analytics/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Purview",
+            "icon": "purview",
+            "service": "purview",
+            "pricing": "azure-purview",
+            "docs": "*",
+            "content": [
+            ]
+          },
+          {
+            "name": "Azure Analysis Services",
+            "icon": "analysisservices",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/analysis-services/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/analysis-services/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/analysis-services/"
+              }
+            ]
+          },
+          {
+            "name": "Data Catalog",
+            "icon": "datacatalog",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/data-catalog/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/data-catalog/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/data-catalog/"
+              }
+            ]
+          },
+          {
+            "name": "Data Lake Analytics",
+            "icon": "datalakeanalytics",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/data-lake-analytics/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/data-lake-analytics/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/data-lake-analytics/"
+              }
+            ]
+          },
+          {
+            "name": "Stream Analytics",
+            "icon": "streamanalytics",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/stream-analytics/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/stream-analytics/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/stream-analytics/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Databricks",
+            "icon": "databricks",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/databricks/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/databricks/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/azure-databricks/"
+              }
+            ]
+          },
+          {
+            "name": "Data Explorer",
+            "icon": "dataexplorer",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/data-explorer/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/data-explorer/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/data-explorer/"
+              }
+            ]
+          },
+          {
+            "name": "Power BI Embedded",
+            "icon": "powerbi",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/power-bi-embedded/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/power-bi-embedded/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/power-bi-embedded/"
+              }
+            ]
+          },
+          {
+            "name": "Time Series Insights",
+            "icon": "timeseriesinsights",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/time-series-insights/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/time-series-insights/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/time-series-insights/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Search",
+            "icon": "search",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/search/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/search/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/search/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Artificial Intelligence",
+        "icon": "artificialintelligence",
+        "services": [
+          {
+            "name": "Azure Applied AI services",
+            "icon": "appliedaiservices",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/product-categories/applied-ai-services/",
+                "text": "Overview"
+              }
+            ],
+            "related": [
+            ]
+          },
+          {
+            "name": "Azure Machine Learning",
+            "icon": "machinelearning",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/machine-learning//",
+                "text": "Overview - Machine Learning Services"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/machine-learning//",
+                "text": "Pricing - Machine Learning Services"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/machine-learning/",
+                "text": "Documentation - Machine Learning Services"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/machine-learning-studio/",
+                "text": "Pricing - Machine Learning Studio"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/machine-learning/overview-what-is-machine-learning-studio",
+                "text": "Documentation - Machine Learning Studio"
+              }
+            ]
+          },
+          {
+            "name": "Cognitive Decision",
+            "icon": "cogdecision",
+            "text": "Enable informed and efficient decision-making.",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/cognitive-services/#decisionContent"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/cognitive-services/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/cognitive-services/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Anomaly Detector",
+                "icon": "cogdecisionanomalydetector"
+              },
+              {
+                "name": "Content Moderator",
+                "icon": "cogdecisioncontentmoderator"
+              },
+              {
+                "name": "Personalizer",
+                "icon": "cogdecisionpersonalizer"
+              }
+            ]
+          },
+          {
+            "name": "Cognitive Speech",
+            "icon": "cogspeech",
+            "text": " Speech enables the integration of speech processing capabilities into any app or service.",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/cognitive-services/#speechContent"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/cognitive-services/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/cognitive-services/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Speech Services",
+                "icon": "cogspeechservices"
+              },
+              {
+                "name": "Speaker Recognition",
+                "icon": "cogspeechspeakerrecognition"
+              }
+            ]
+          },
+          {
+            "name": "Cognitive Language",
+            "icon": "coglang",
+            "text": "Language services ensure apps and services can understand the meaning of unstructured text or recognize the intent behind a speaker’s utterances.",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/cognitive-services/#langContent"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/cognitive-services/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/cognitive-services/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Immersive Reader",
+                "icon": "coglangimmersivereader"
+              },
+              {
+                "name": "Language Understanding",
+                "icon": "coglangluis"
+              },
+              {
+                "name": "QnA Maker",
+                "icon": "coglanglqnamaker"
+              },
+              {
+                "name": "Text Analytics",
+                "icon": "coglangtextanalytics"
+              },
+              {
+                "name": "Translator Text",
+                "icon": "coglangtranslatortext"
+              }
+            ]
+          },
+          {
+            "name": "Cognitive Vision",
+            "icon": "cogvision",
+            "text": "Vision makes it possible for apps and services to accurately identify and analyze content within images, videos, and digital ink.",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/cognitive-services/#visionContent"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/cognitive-services/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/cognitive-services/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Computer Vision",
+                "icon": "cogvisioncomputer"
+              },
+              {
+                "name": "Custom Vision",
+                "icon": "cogvisioncustom"
+              },
+              {
+                "name": "Face",
+                "icon": "cogvisionface"
+              },
+              {
+                "name": "Form Recognizer",
+                "icon": "cogvisionformrecognizer"
+              },
+              {
+                "name": "Ink Recognizer",
+                "icon": "cogvisioninkrecognizer"
+              },
+              {
+                "name": "Video Indexer",
+                "icon": "cogvisionvideoindexer"
+              }
+            ]
+          },
+          {
+            "name": "Azure Cognitive Search",
+            "icon": "cogsearch",
+            "text": "Enable apps and services to harness the power of a Web-scale, ad-free search engine with Search.",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/cognitive-services/#searchContent"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/cognitive-services/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/cognitive-services/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Bing Autosuggest",
+                "icon": "cogsearchbingautosuggest"
+              },
+              {
+                "name": "Bing Custom Search",
+                "icon": "cogsearchbingcustomsearch"
+              },
+              {
+                "name": "Bing Entity Search",
+                "icon": "cogsearchbingentitysearch"
+              },
+              {
+                "name": "Bing Image Search",
+                "icon": "cogsearchbingimagesearch"
+              },
+              {
+                "name": "Bing Local Business Search",
+                "icon": "cogsearchbinglocalbusinesssearch"
+              },
+              {
+                "name": "Bing News Search",
+                "icon": "cogsearchbingnewssearch"
+              },
+              {
+                "name": "Bing Spell Check",
+                "icon": "cogsearchbingspellcheck"
+              },
+              {
+                "name": "Bing Video Search",
+                "icon": "cogsearchbingvideosearch"
+              },
+              {
+                "name": "Bing Visual Search",
+                "icon": "cogsearchbingvisualsearch"
+              },
+              {
+                "name": "Bing Web Search",
+                "icon": "cogsearchbingwebsearch"
+              }
+            ]
+          },
+          {
+            "name": "Azure Bot Service",
+            "icon": "botframework",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/bot-service/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/bot-service/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/bot-service/",
+                "text": "Documentation"
+              },
+              {
+                "item": "link",
+                "url": "dev.botframework.com",
+                "text": "Bot framework"
+              }
+            ]
+          },
+          {
+            "name": "Data Science VMs",
+            "icon": "datascience",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/virtual-machines/data-science-virtual-machines/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/machine-learning/data-science-virtual-machine/overview/"
+              }
+            ]
+          },
+          {
+            "name": "Dynamics 365 AI",
+            "icon": "customerinsights",
+            "text": "Accelerate business transformation with the power of AI",
+            "content": [
+              {
+                "item": "link",
+                "url": "dynamics.microsoft.com/en-us/ai/",
+                "text": "Dynamics 365 AI offerings"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Application Services",
+        "icon": "appservices",
+        "services": [
+          {
+            "name": "Azure Media Services",
+            "icon": "mediaservices",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/media-services/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/media-services/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/media-services/"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*service*/media-services/media-player/",
+                "text": "Media Player"
+              },
+              {
+                "item": "link",
+                "url": "*service*/media-services/media-analytics/",
+                "text": "Media Analytics"
+              },
+              {
+                "item": "link",
+                "url": "*service*/media-services/encoding/",
+                "text": "Encoding"
+              },
+              {
+                "item": "link",
+                "url": "*service*/media-services/live-on-demand/",
+                "text": "Live and on-demand streaming"
+              },
+              {
+                "item": "link",
+                "url": "*service*/media-services/content-protection/",
+                "text": "Content Protection"
+              },
+              {
+                "item": "link",
+                "url": "*service*/cognitive-services/video-indexer/",
+                "text": "Video Indexer"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "stream.microsoft.com",
+                "text": "Microsoft Stream"
+              }
+            ]
+          },
+          {
+            "name": "Azure SignalR Service",
+            "icon": "signalr",
+            "service": "signalr-service",
+            "pricing": "*",
+            "docs": "azure-signalr"
+          },
+          {
+            "name": "Azure Web PubSub",
+            "icon": "webpubsub",
+            "service": "web-pubsub",
+            "pricing": "*",
+            "docs": "azure-web-pubsub"
+          },
+          {
+            "name": "Azure Maps",
+            "icon": "maps",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/azure-maps/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/azure-maps/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/azure-maps/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Communication Services",
+            "icon": "communications",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/communication-services//"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/communication-services/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/communication-services/"
+              }
+            ]
+          },
+          {
+            "name": "Notification Hubs",
+            "icon": "notificationhubs",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/notification-hubs/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/notification-hubs/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/notification-hubs/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Fluid Relay",
+            "icon": "fluidrelay",
+            "service": "fluid-relay",
+            "docs": "azure-fluid-relay"
+          },
+          {
+            "name": "Graph Data Connect",
+            "icon": "graphdataconnect",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/graph-data-connect/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/graph-data-connect/"
+              },
+              {
+                "item": "link",
+                "url": "docs.microsoft.com/graph/data-connect-concept-overview",
+                "text": "Documentation"
+              }
+            ]
+          },
+          {
+            "name": "Office Platform",
+            "icon": "officeplatform",
+            "text": "Office Dev Center for Office 365, Office 365 client, and SharePoint development",
+            "content": [
+              {
+                "item": "link",
+                "url": "dev.office.com/",
+                "text": "Overview"
+              },
+              {
+                "item": "link",
+                "url": "dev.office.com/docs",
+                "text": "Documentation"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/solutions/sharepoint/",
+                "text": "Overview - SharePoint on Azure"
+              },
+              {
+                "item": "link",
+                "url": "azuremarketplace.microsoft.com/en-gb/marketplace/apps?search=sharepoint&page=1",
+                "text": "SharePoint Server on Azure VMs "
+              }
+            ]
+          }
+
+        ]
+      },
+      {
+        "name": "Internet of Things / Intelligent Edge",
+        "icon": "iotintelligentedge",
+        "services": [
+          {
+            "name": "IoT Hub",
+            "icon": "iothub",
+            "content": [
+
+              {
+                "item": "link",
+                "url": "*service*/iot-hub/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/iot-hub/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/iot-hub/"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/overview/iot/",
+                "text": "IoT Overview"
+              },
+              {
+                "item": "link",
+                "url": "*feature*/iot-accelerators/",
+                "text": "IoT solution accelerators"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/iot-accelerators/",
+                "text": "IoT solution accelerators documentation"
+              },
+              {
+                "item": "link",
+                "url": "iotschool.microsoft.com",
+                "text": "IoT School"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*ms*/internet-of-things/connected-vehicles",
+                "text": "IoT for Connected Vehicles"
+              },
+              {
+                "item": "link",
+                "url": "*ms*/internet-of-things/smart-city",
+                "text": "IoT for Smart Cities & Smart Buildings"
+              },
+              {
+                "item": "link",
+                "url": "*ms*/internet-of-things/retail",
+                "text": "IoT for Retail"
+              },
+              {
+                "item": "link",
+                "url": "*ms*/internet-of-things/healthcare",
+                "text": "IoT for Healthcare"
+              },
+              {
+                "item": "link",
+                "url": "*ms*/internet-of-things/manufacturing",
+                "text": "IoT for Manufacturing"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "C9video",
+                "url": "Shows/Azure-Friday/Azure-IoT-Hub",
+                "text": "Azure IoT Hub"
+              }
+            ]
+          },
+          {
+            "name": "Azure Event Hubs",
+            "icon": "eventhubs",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/event-hubs/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/event-hubs/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/event-hubs/"
+              }
+            ]
+          },
+          {
+            "name": "IOT Edge",
+            "icon": "iotedge",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/iot-edge/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/iot-edge/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/iot-edge/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure SQL Edge"
+              }
+            ]
+          },
+          {
+            "name": "IoT Central",
+            "icon": "iotcentral",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/iot-central/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/iot-central/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/iot-central/"
+              }
+            ]
+          },
+          {
+            "name": "Digital Twins",
+            "icon": "digitaltwins",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/digital-twins/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/digital-twins/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/digital-twins/"
+              }
+            ]
+          },
+          {
+            "name": "Windows 10 IoT Core Services",
+            "icon": "windowsiot",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/windows-10-iot-core/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/windows-10-iot-core/"
+              },
+              {
+                "item": "link",
+                "url": "docs.microsoft.com/windows/iot-core/commercialize-your-device/iotcoreservicesoverview",
+                "text": "Documentation"
+              },
+              { "item": "space" },
+              {
+                "item": "link",
+                "url": "*ms*/WindowsForBusiness/windows-iot",
+                "text": "Windows 10 IoT"
+              }
+            ]
+          },
+          {
+            "name": "Azure Sphere",
+            "icon": "sphere",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/azure-sphere/"
+              }
+            ]
+          },
+          {
+            "name": "Azure RTOS",
+            "icon": "rtos",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/rtos/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Percept",
+            "icon": "percept",
+            "service": "azure-percept",
+            "pricing": "*",
+            "docs": "*",
+            "content": [
+            ]
+          },
+          {
+            "name": "Mixed Reality",
+            "icon": "mixedreality",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/topic/mixed-reality/",
+                "text": "Overview"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*service*/spatial-anchors/",
+                "text": "Spatial Anchors Overview"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/spatial-anchors/",
+                "text": "Spatial Anchors Pricing"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/spatial-anchors/",
+                "text": "Spatial Anchors Documentation"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*service*/object-anchors/",
+                "text": "Object Anchors Overview"
+              },
+              {
+                "item": "link",
+                "url": "*service*/object-anchors/#pricing",
+                "text": "Object Anchors Pricing"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/object-anchors/",
+                "text": "Object Anchors Documentation"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*service*/kinect-dk/",
+                "text": "Kinect DK Overview"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/kinect-dk/",
+                "text": "Kinect DK Documentation"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*service*/remote-rendering/",
+                "text": "Remote Rendering Overview"
+              }
+            ],
+            "related": [
+              {
+                "name": "Kinect DK",
+                "icon": "kinect"
+              },
+              {
+                "name": "Spatial Anchors",
+                "icon": "spatialanchors"
+              },
+              {
+                "name": "Remote Rendering",
+                "icon": "remoterendering"
+              },
+              {
+                "name": "Digital Twins"
+              }
+            ]
+          },
+          {
+            "name": "Azure Stack Hub",
+            "icon": "stackhub",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/products/azure-stack/hub/",
+                "text": "Overview"
+              }
+            ]
+          },
+          {
+            "name": "Azure Stack HCI",
+            "icon": "stackhci",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/products/azure-stack/hci/",
+                "text": "Overview"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/azure-stack/hci/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/azure-stack/hci/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Stack Edge",
+            "icon": "stackedge",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/products/azure-stack/edge/",
+                "text": "Overview"
+              },
+
+              {
+                "item": "link",
+                "url": "*pricing*/azure-stack/edge/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/databox-online/"
+              }
+            ]
+          },
+          {
+            "name": "StorSimple",
+            "icon": "storsimple",
+            "service": "storsimple",
+            "pricing": "*",
+            "docs": "*"
+          },
+          {
+            "name": "Azure FXT Edge Filer",
+            "icon": "fxtscaling",
+            "service": "fxt-edge-filer",
+            "pricing": "*",
+            "docs": "*"
+          }
+        ]
+      },
+      {
+        "name": "AppDev / DevOps",
+        "icon": "developer",
+        "services": [
+          {
+            "name": "GitHub",
+            "icon": "github",
+            "content": [
+              {
+                "item": "link",
+                "text": "Service",
+                "url": "https://github.com/features"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure DevOps"
+              },
+              {
+                "name": "Azure Boards"
+              },
+              {
+                "name": "Azure Pipelines"
+              }
+            ]
+          },
+          {
+            "name": "Azure DevOps",
+            "icon": "vsts",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/devops/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/devops/azure-devops-services/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/devops"
+              },
+              {
+                "item": "slide",
+                "url": "/slide/appinnovation.htm",
+                "text": "App Innovation"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure DevOps Projects"
+              },
+              {
+                "name": "Azure Artifacts"
+              },
+              {
+                "name": "Azure Boards"
+              },
+              {
+                "name": "Azure Repos"
+              },
+              {
+                "name": "Azure Pipelines"
+              },
+              {
+                "name": "Azure Test Plans"
+              }
+            ]
+          },
+          {
+            "name": "Azure Pipelines",
+            "icon": "pipelines",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/devops/pipelines"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/devops/azure-pipelines/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/devops/pipelines"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure DevOps"
+              },
+              {
+                "name": "GitHub"
+              }
+            ]
+          },
+          {
+            "name": "Azure Boards",
+            "icon": "boards",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/devops/boards"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/devops/azure-devops-services/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/devops/boards"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure DevOps"
+              },
+              {
+                "name": "GitHub"
+              }
+            ]
+          },
+          {
+            "name": "Azure Repos",
+            "icon": "repos",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/devops/repos"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/devops/azure-devops-services/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/devops/repos"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure DevOps"
+              }
+            ]
+          },
+          {
+            "name": "Azure Test Plans",
+            "icon": "testplans",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/devops/test-plans"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/devops/azure-devops-services/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/devops/test"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure DevOps"
+              }
+            ]
+          },
+          {
+            "name": "Azure Artifacts",
+            "icon": "artifacts",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/devops/artifacts"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/devops/azure-devops-services/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/devops/artifacts"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure DevOps"
+              }
+            ]
+          },
+          {
+            "name": "Azure DevOps Projects",
+            "icon": "devopsproject",
+            "content": [
+              {
+                "item": "link",
+                "url": "*feature*/devops-projects/",
+                "text": "Overview"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/devops-project/"
+              }
+            ]
+          },
+          {
+            "name": "Visual Studio",
+            "icon": "vs",
+            "content": [
+              {
+                "item": "link",
+                "text": "Visual Studio Home",
+                "url": "visualstudio.microsoft.com/"
+              },
+              { "item": "space" },
+              {
+                "item": "link",
+                "text": "Visual Studio Code",
+                "url": "*ams*/products/visual-studio-code/"
+              },
+              { "item": "space" },
+              {
+                "item": "link",
+                "text": "Visual Studio Online",
+                "url": "*service*/visual-studio-online/"
+              },
+              {
+                "item": "link",
+                "text": "Visual Studio Online pricing",
+                "url": "*pricing*/visual-studio-online/"
+              },
+              {
+                "item": "link",
+                "text": "Visual Studio Online documentation",
+                "url": "docs.microsoft.com/visualstudio/online/"
+              }
+
+            ],
+            "related": [
+              {
+                "name": "Azure DevOps"
+              },
+              {
+                "name": "Runtimes and Frameworks"
+              }
+            ]
+          },
+          {
+            "name": "Codespaces",
+            "icon": "codespaces",
+            "content": [
+              {
+                "item": "link",
+                "text": "Codespaces",
+                "url": "https://github.com/features/codespaces"
+              }
+            ],
+            "related": [
+              {
+                "name": "GitHub"
+              },
+              {
+                "name": "Visual Studio"
+              }
+
+            ]
+          },
+
+          {
+            "name": "Runtimes and Frameworks",
+            "icon": "runtime",
+            "content": [
+              {
+                "item": "link",
+                "text": "Visual Studio Home",
+                "url": "www.visualstudio.com/"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "text": "Azure for .NET developers",
+                "url": "docs.microsoft.com/en-us/dotnet/azure/"
+              },
+              {
+                "item": "link",
+                "text": "Azure for Java developers",
+                "url": "docs.microsoft.com/en-us/java/azure/"
+              },
+              {
+                "item": "link",
+                "text": "Azure for Node.js developers",
+                "url": "docs.microsoft.com/en-us/nodejs/azure/"
+              },
+              {
+                "item": "link",
+                "text": "Azure for Python developers",
+                "url": "docs.microsoft.com/en-us/python/azure/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Visual Studio"
+              },
+              {
+                "name": "DotNet",
+                "icon": "dotnet"
+              },
+              {
+                "name": "Xamarin",
+                "icon": "xamarin"
+              },
+              {
+                "name": "Node",
+                "icon": "nodejs"
+              },
+              {
+                "name": "Java",
+                "icon": "java"
+              },
+              {
+                "name": "PHP",
+                "icon": "php"
+              },
+              {
+                "name": "Python",
+                "icon": "python"
+              }
+            ]
+          },
+          {
+            "name": "Open Source Tooling",
+            "icon": "open",
+            "content": [
+              {
+                "item": "space"
+              }
+            ],
+            "related": [
+              {
+                "name": "Docker",
+                "icon": "docker"
+              },
+              {
+                "name": "Git",
+                "icon": "git"
+              }
+            ]
+          },
+          {
+            "name": "SDK",
+            "icon": "sdk",
+            "text": "Software Development Kit",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/en-us/downloads/",
+                "text": "Downloads"
+              }
+            ]
+          },
+          {
+            "name": "Visual Studio App Center",
+            "icon": "vsmobilecenter",
+            "text": "Visual Studio App Center is the next generation of HockeyApp",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/app-center/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/app-center/"
+              },
+              {
+                "item": "link",
+                "text": "Documentation",
+                "url": "docs.microsoft.com/appcenter/"
+              },
+              {
+                "item": "link",
+                "url": "appcenter.ms",
+                "text": "Visual Studio App Center portal"
+              }
+            ],
+            "related": [
+              {
+                "name": "HockeyApp",
+                "icon": "hockeyapp"
+              }
+            ]
+          },
+          {
+            "name": "Lab Services",
+            "icon": "devtestlabs",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/lab-services/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/lab-services/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/lab-services/"
+              },
+              { "item": "space" },
+              {
+                "item": "link",
+                "url": "*ams*/en-gb/services/devtest-lab/",
+                "text": "Overview - DevTest Labs"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/devtest-lab/",
+                "text": "Pricing - DevTest Labs"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/lab-services/devtest-lab-overview",
+                "text": "Documentation - DevTest Labs"
+              },
+              { "item": "space" },
+              { "item": "space" },
+              {
+                "item": "link",
+                "url": "*docs*/lab-services/compare-lab-types",
+                "text": "Lab Services v DevTest Labs"
+              }
+
+            ],
+            "related": [
+              {
+                "name": "Virtual Machines"
+              },
+              {
+                "name": "Virtual Networks"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Governance",
+        "icon": "governance",
+        "services": [
+          {
+            "name": "Azure Blueprints",
+            "icon": "blueprints",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/blueprints/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/blueprints/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/governance/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Policy"
+              },
+              {
+                "name": "Azure Resource Graph"
+              },
+              {
+                "name": "Management Groups"
+              }
+            ]
+          },
+          {
+            "name": "Azure Policy",
+            "icon": "policy",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/azure-policy/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/azure-policy/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/governance/policy/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Blueprints"
+              }
+            ]
+          },
+          {
+            "name": "Azure Resource Graph",
+            "icon": "resourcegraph",
+            "content": [
+              {
+                "item": "link",
+                "url": "*feature*/resource-graph/",
+                "text": "Overview"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/governance/resource-graph/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Blueprints"
+              }
+            ]
+          },
+          {
+            "name": "Management Groups",
+            "icon": "mangroups",
+            "content": [
+              {
+                "item": "link",
+                "url": "*feature*/management-groups/",
+                "text": "Overview"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/governance/management-groups/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Blueprints"
+              }
+            ]
+          },
+          {
+            "name": "Azure Cost Management",
+            "icon": "costmanagement",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/cost-management/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/cost-management/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/cost-management/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Attestation",
+            "icon": "attestation",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/azure-attestation/"
+              },
+              {
+                "item": "link",
+                "url": "*service*/azure-attestation/#pricing",
+                "text": "Pricing"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/attestation/"
+              }
+            ]
+          },
+          {
+            "name": "Best Practice Frameworks",
+            "icon": "bestpracticeframeworks",
+            "content": [
+              {
+                "item": "link",
+                "url": "*docs*/architecture/framework/",
+                "text": "Well Architected Framework"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/cloud-adoption-framework/",
+                "text": "Cloud Adoption Framework"
+              },
+              {
+                "item": "link",
+                "url": "https://github.com/Azure/Enterprise-Scale",
+                "text": "Enterprise-Scale - Reference Implementation"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Monitoring",
+        "icon": "monitoring",
+        "services": [
+          {
+            "name": "Monitor",
+            "icon": "monitor",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/monitor/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/monitor/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/monitoring-and-diagnostics/",
+                "text": "Documentation"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/architecture/cloud-adoption/operations/monitor/",
+                "text": "Cloud Monitoring Guide"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "dev.applicationinsights.io",
+                "text": "Azure Application Insights REST API"
+              },
+              {
+                "item": "YTvideo",
+                "text": "Application Insights Introduction",
+                "url": "fX2NtGrh-Y0"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "www.azureserviceprofiler.com/help/overview",
+                "text": "Overview"
+              },
+              {
+                "item": "link",
+                "url": "www.azureserviceprofiler.com/",
+                "text": "Service Profile Home"
+              }
+            ],
+            "related": [
+              {
+                "name": "Log Analytics",
+                "icon": "loganalytics"
+              },
+              {
+                "name": "Application Insights",
+                "icon": "appinsights"
+              }
+            ]
+          },
+          {
+            "name": "Sentinel",
+            "icon": "sentinel",
+            "service": "/azure-sentinel/",
+            "text": "Azure Sentinel Preview is a cloud-native SIEM that provides intelligent security analytics for your entire enterprise at cloud scale",
+            "pricing": "*",
+            "docs": "/sentinel/",
+            "content": [
+              {
+                "item": "link",
+                "url": "*docs*/sentinel/connect-data-sources",
+                "text": "Data Sources"
+              }
+            ],
+            "related": [
+              {
+                "name": "Security"
+              }
+            ]
+          },
+          {
+            "name": "Security Center",
+            "icon": "securitycenter",
+            "service": "security-center",
+            "pricing": "*",
+            "docs": "*",
+            "content": [
+              {
+                "item": "C9video",
+                "url": "Blogs/Azure/Introduction-to-Azure-Security-Center",
+                "text": "Introduction to Azure Security Center"
+              }
+            ],
+            "related": [
+              {
+                "name": "Security"
+              },
+              {
+                "name": "Monitor"
+              },
+              {
+                "name": "Azure Defender"
+              }
+            ]
+          },
+          {
+            "name": "Azure Defender",
+            "icon": "defender",
+            "service": "azure-defender",
+            "pricing": "*",
+            "docs": "/security-center/azure-defender",
+            "content": [
+            ],
+            "related": [
+              {
+                "name": "Security"
+              },
+              {
+                "name": "Monitor"
+              },
+              {
+                "name": "Security Center"
+              }
+            ]
+          },
+          {
+            "name": "Advisor",
+            "icon": "advisor",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/advisor/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/advisor/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/advisor/"
+              }
+            ]
+          },
+          {
+            "name": "Network Watcher",
+            "icon": "networkwatcher",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/network-watcher/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/network-watcher/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/network-watcher/"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "text": "Internet Analyzer",
+                "url": "*service*/internet-analyzer/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Grafana",
+            "icon": "grafana",
+            "text": "Private preview",
+            "content": [
+              {
+                "item": "link",
+                "url": "https://grafana.com/about/press/2021/11/10/grafana-labs-and-microsoft-partner-to-deliver-new-first-party-microsoft-azure-service/",
+                "text": "Azure Grafana - Signup for preview"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "https://azuremarketplace.microsoft.com/marketplace/apps/grafana-labs.grafana_oss",
+                "text": "Grafana - Azure Marketplace"
+              },
+              {
+                "item": "link",
+                "url": "https://devblogs.microsoft.com/devops/monitoring-azure-by-using-grafana-dashboards/",
+                "text": "Monitoring Azure by using Grafana dashboards"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Configuration / Management",
+        "icon": "configuration",
+        "services": [
+          {
+            "name": "Management Portal",
+            "icon": "portal",
+            "content": [
+              {
+                "item": "link",
+                "url": "*feature*/azure-portal"
+              },
+              {
+                "item": "link",
+                "url": "*feature*/azure-portal/mobile-app/",
+                "text": "Azure management Mobile App"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "text": "Management Portal - portal.azure.com",
+                "item": "link",
+                "url": "portal.azure.com/"
+              },
+
+              {
+                "text": "EA Portal - ea.azure.com",
+                "item": "link",
+                "url": "ea.azure.com/"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "YTvideo",
+                "text": "Azure Activation, Admin Roles, and Enterprise Portal Demo",
+                "url": "mGLN8Xgw6z4"
+              }
+
+            ],
+            "related": [
+              {
+                "name": "Cloud Shell"
+              }
+            ]
+          },
+          {
+            "name": "Azure Arc",
+            "icon": "arc",
+            "service": "azure-arc",
+            "docs": "*"
+          },
+          {
+            "name": "Azure Lighthouse",
+            "icon": "lighthouse",
+            "service": "azure-lighthouse",
+            "pricing": "*",
+            "docs": "/lighthouse/"
+          },
+          {
+            "name": "Cloud Shell",
+            "icon": "cloudshell",
+            "content": [
+              {
+                "item": "link",
+                "url": "*docs*/cloud-shell/overview"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "url": "docs.microsoft.com/en-gb/cli/azure",
+                "text": "Azure CLI",
+                "item": "link"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "text": "Bash Quickstart",
+                "url": "*docs*/cloud-shell/quickstart"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "text": "PowerShell Quickstart",
+                "url": "*docs*/cloud-shell/quickstart-powershell"
+              },
+              {
+                "item": "link",
+                "url": "docs.microsoft.com/powershell/azure/overview",
+                "text": "PowerShell Documentation"
+              }
+            ],
+            "related": [
+              {
+                "name": "Management Portal"
+              }
+            ]
+          },
+          {
+            "name": "Azure Resource Manager",
+            "icon": "resourcemanager",
+            "content": [
+              {
+                "item": "link",
+                "url": "*docs*/azure-resource-manager/resource-group-overview",
+                "text": "Overview"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/azure-resource-manager/resource-manager-supported-services",
+                "text": "Resource providers"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/azure-resource-manager/management-groups-overview",
+                "text": "Azure management groups"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/cloud-adoption-framework/decision-guides/subscriptions/",
+                "text": "Azure subscriptions"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/azure-resource-manager/templates/overview",
+                "text": "ARM templates "
+              },
+              {
+                "item": "link",
+                "url": "*docs*/azure-resource-manager/bicep/overview",
+                "text": "Bicep templates "
+              }
+            ]
+          },
+          {
+            "name": "Application Deployment",
+            "icon": "appdeployment",
+            "content": [
+              {
+                "item": "link",
+                "url": "www.visualstudio.com/learn/what-is-devops/",
+                "text": "What is DevOps?"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Automation"
+              },
+              {
+                "name": "Azure DevOps"
+              }
+            ]
+          },
+          {
+            "name": "App Configuration",
+            "icon": "appconfiguration",
+            "text": "Fast, scalable parameter storage for app configuration.",
+            "service": "/app-configuration/",
+            "pricing": "*",
+            "docs": "/azure-app-configuration/"
+          },
+          {
+            "name": "VM Image Builder",
+            "icon": "vmimagebuilder",
+            "service": "image-builder",
+            "pricing": "*",
+            "content": [
+              {
+                "item": "link",
+                "url": "*docs*/virtual-machines/shared-image-galleries",
+                "text": "Shared Image Galleries"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/virtual-machines/windows/image-builder",
+                "text": "Windows Image Builder"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/virtual-machines/linux/image-builder",
+                "text": "Linux Image Builder"
+              }
+            ],
+            "related": [
+              {
+                "name": "Virtual Machines"
+              }
+            ]
+          },
+          {
+            "name": "Azure Automanage",
+            "icon": "automanage",
+            "service": "azure-automanage",
+            "docs": "automanage/automanage-virtual-machines",
+            "content": [
+            ],
+            "related": [
+              {
+                "name": "Virtual Machines"
+              }
+            ]
+          },
+          {
+            "name": "Azure Managed Applications",
+            "icon": "managedapplications",
+            "service": "managed-applications",
+            "pricing": "*",
+            "docs": "azure-resource-manager/managed-applications",
+            "content": [
+            ],
+            "related": [
+            ]
+          },
+          {
+            "name": "Azure Resource Mover",
+            "icon": "resourcemover",
+            "service": "resource-mover",
+            "pricing": "*",
+            "docs": "*",
+            "content": [
+            ],
+            "related": [
+            ]
+          },
+          {
+            "name": "Azure Key Vault",
+            "icon": "keyvault",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/key-vault/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/key-vault/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/key-vault/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Security"
+              }
+            ]
+          },
+          {
+            "name": "Dedicated HSM",
+            "icon": "dedicatedhsm",
+            "service": "/azure-dedicated-hsm/",
+            "pricing": "/azure-dedicated-hsm/",
+            "docs": "/dedicated-hsm/",
+            "related": [
+              {
+                "name": "Security"
+              }
+            ]
+          },
+          {
+            "name": "Azure Container Registry",
+            "icon": "containerregistry",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/container-registry/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/container-registry/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/container-registry/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Business Continuity / Migration",
+        "icon": "bcdr",
+        "services": [
+          {
+            "name": "Azure Backup",
+            "icon": "azurebackup",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/backup/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/backup/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/backup/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Monitor"
+              }
+            ]
+          },
+          {
+            "name": "Azure Site Recovery",
+            "icon": "siterecovery",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/site-recovery/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/site-recovery/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/site-recovery/"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Migrate"
+              }
+            ]
+          },
+          {
+            "name": "Azure Load Testing",
+            "icon": "loadtest",
+            "service": "load-testing",
+            "pricing": "*",
+            "docs": "*"
+          },
+          {
+            "name": "Azure Chaos Studio",
+            "icon": "chaosstudio",
+            "service": "chaos-studio",
+            "pricing": "*",
+            "docs": "*"
+          },
+          {
+            "name": "Azure Migrate",
+            "icon": "migrate",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/azure-migrate/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/azure-migrate/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/migrate/migrate-overview"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/migration",
+                "text": "Migration Center"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Site Recovery"
+              }
+            ]
+          },
+          {
+            "name": "Azure Database Migration",
+            "icon": "dbmigration",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/database-migration/"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/database-migration/"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/dms/dms-overview/"
+              }
+            ]
+          },
+          {
+            "name": "Azure Data Box",
+            "icon": "databox",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/storage/databox/"
+              },
+              {
+                "item": "link",
+                "url": "*service*/storage/databox/offline-media-import/",
+                "text": "Offline media import for Azure"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Advanced Workloads",
+        "icon": "advanced",
+        "services": [
+          {
+            "name": "API Economy",
+            "icon": "apieconomy",
+            "content": [
+              {
+                "item": "link",
+                "text": "Welcome to the API Economy",
+                "url": "https://www.gartner.com/smarterwithgartner/welcome-to-the-api-economy/"
+              },
+              {
+                "item": "slide",
+                "url": "/slide/appinnovation.htm",
+                "text": "App Innovation"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure API Management"
+              }
+
+            ]
+          },
+          {
+            "name": "Telemetry Ingestion",
+            "icon": "telemetryingestion",
+            "content": [
+              {
+                "item": "link",
+                "text": "Azure IoT",
+                "url": "*ams*/overview/iot/"
+              },
+              {
+                "item": "link",
+                "text": "Overview",
+                "url": "*docs*/architecture/data-guide/technology-choices/real-time-ingestion"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Event Hubs"
+              },
+              {
+                "name": "IoT Hub"
+              },
+              {
+                "name": "HD Insight"
+              }
+            ]
+          },
+          {
+            "name": "Big Data",
+            "icon": "bigdata",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/solutions/big-data/",
+                "text": "Overview"
+              }
+            ]
+          },
+          {
+            "name": "High Performance Computing",
+            "icon": "hpc",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/solutions/high-performance-computing/",
+                "text": "Overview"
+              }
+            ],
+            "related": [
+              {
+                "name": "Batch"
+              },
+              {
+                "name": "VM Scale Sets"
+              },
+              {
+                "name": "Storage",
+                "icon": "datastorage"
+              },
+              {
+                "name": "Avere vFXT for Azure"
+              }
+            ]
+          },
+          {
+            "name": "Microservices Architecture",
+            "icon": "microservices",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/solutions/microservice-applications/",
+                "text": "Overview"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/en-us/blog/design-patterns-for-microservices/",
+                "text": "Design patterns for microservices"
+              },
+              {
+                "item": "slide",
+                "url": "/slide/appinnovation.htm",
+                "text": "App Innovation"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "https://getakka.net/",
+                "text": "Akka.Net"
+              },
+              {
+                "item": "link",
+                "url": "https://dotnet.github.io/orleans/",
+                "text": "Orleans"
+              }
+            ],
+            "related": [
+              {
+                "name": "Service Fabric"
+              },
+              {
+                "name": "Azure Kubernetes Service"
+              }
+            ]
+          },
+          {
+            "name": "Gaming",
+            "icon": "gaming",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/solutions/gaming/",
+                "text": "Overview"
+              },
+              {
+                "item": "link",
+                "text": "Microsoft Game Stack",
+                "url": "https://developer.microsoft.com/en-us/games/solutions"
+              },
+              {
+                "item": "link",
+                "text": "Documentation",
+                "url": "https://docs.microsoft.com/gaming/"
+              },
+              {
+                "item": "link",
+                "text": "Azure PlayFab",
+                "url": "https://playfab.com/"
+              }
+
+            ],
+            "related": [
+              {
+                "name": "PlayFab",
+                "icon": "playfab"
+              },
+              {
+                "name": "Microservices Architecture"
+              }
+            ]
+          },
+          {
+            "name": "Genomics",
+            "icon": "genomics",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/genomics",
+                "text": "Overview - Microsoft Genomics"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/genomics",
+                "text": "Documentation - Microsoft Genomics"
+              }
+            ]
+
+          },
+          {
+            "name": "SAP",
+            "icon": "sap",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/solutions/sap/",
+                "text": "Overview"
+              }
+            ]
+          },
+          {
+            "name": "Heathcare Interoperability",
+            "icon": "fhir",
+            "service": "healthcare-apis",
+            "pricing": "azure-api-for-fhir",
+            "docs": "*"
+          },
+          {
+            "name": "Digital Marketing and eCommerce",
+            "icon": "digitalmarketing",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/solutions/digital-marketing/",
+                "text": "Overview - Digital Marketing "
+              },
+              {
+                "item": "link",
+                "url": "*ams*/solutions/ecommerce/",
+                "text": "Overview - Ecommerce "
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/marketplace/?term=cms",
+                "text": "Marketplace - Content Management"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/marketplace/?term=commerce",
+                "text": "Marketplace - Commerce"
+              }
+            ]
+          },
+          {
+            "name": "Hybrid Cloud",
+            "icon": "hybridcloud",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/overview/hybrid-cloud/",
+                "text": "Overview"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/solutions/hybrid-cloud-app/",
+                "text": "Hybrid Cloud Solutions"
+              },
+              {
+                "item": "link",
+                "url": "*ms*/cloud-platform/windows-server",
+                "text": "Windows Server"
+              },
+              {
+                "item": "link",
+                "url": "docs.microsoft.com/windows-server/",
+                "text": "Windows Server Documentation"
+              },
+              {
+                "item": "link",
+                "url": "docs.microsoft.com/windows-server/virtualization/virtualization",
+                "text": "Software Defined - Compute"
+              },
+              {
+                "item": "link",
+                "url": "docs.microsoft.com/windows-server/networking/networking",
+                "text": "Software Defined - Networking"
+              },
+              {
+                "item": "link",
+                "url": "docs.microsoft.com/windows-server/storage/storage",
+                "text": "Software Defined - Storage"
+              },
+              {
+                "item": "link",
+                "url": "www.microsoft.com/cloud-platform/system-center",
+                "text": "System Center"
+              },
+              {
+                "item": "link",
+                "url": "docs.microsoft.com/system-center",
+                "text": "System Center Documentation"
+              },
+              {
+                "item": "YTvideo",
+                "url": "3wvTYbnXyB4",
+                "text": "Windows Server 2019 Hybrid Cloud "
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Stack HCI"
+              },
+              {
+                "name": "Windows Server",
+                "icon": "windowsserver"
+              },
+              {
+                "name": "System Center",
+                "icon": "systemcenter"
+              },
+              {
+                "name": "Software Defined Networking",
+                "icon": "sdnnetworking"
+              },
+              {
+                "name": "Software Defined Storage",
+                "icon": "sdstorage"
+              }
+            ]
+          },
+          {
+            "name": "Blockchain",
+            "icon": "blockchain",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/solutions/blockchain/",
+                "text": "Overview"
+              },
+              {
+                "item": "link",
+                "url": "https://consensys.net/quorum/qbs/",
+                "text": "Quorum Blockchain Service"
+              },
+              {
+                "item": "link",
+                "url": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/consensys.qbs-contact-me",
+                "text": "Quorum Blockchain Service - Azure Marketplace"
+              },
+              {
+                "item": "link",
+                "url": "https://azuremarketplace.microsoft.com/en-GB/marketplace/apps/consensys.quorum-dev-quickstart",
+                "text": "Quorum Dev Quickstart - Azure Marketplace"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Confidential Ledger"
+              }
+            ]
+          },
+          {
+            "name": "Serverless",
+            "icon": "serverless",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/overview/serverless-computing/",
+                "text": "Serverless Computing"
+              },
+              {
+                "item": "link",
+                "url": "https://serverlesslibrary.net/",
+                "text": "Azure serverless community library"
+              },
+              {
+                "item": "slide",
+                "url": "/slide/appinnovation.htm",
+                "text": "App Innovation"
+              }
+            ],
+            "related": [
+              {
+                "name": "Azure Functions"
+              },
+              {
+                "name": "Azure Logic Apps"
+              },
+              {
+                "name": "Azure Event Grid"
+              }
+            ]
+          },
+          {
+            "name": "Business Productivity",
+            "icon": "businessproductivity",
+            "content": [
+              {
+                "item": "link",
+                "url": "products.office.com/business/office",
+                "text": "Office 365"
+              },
+              {
+                "item": "link",
+                "url": "dynamics.microsoft.com",
+                "text": "Dynamics"
+              },
+              {
+                "item": "link",
+                "url": "www.microsoft.com/WindowsForBusiness/default.aspx",
+                "text": "Windows 10"
+              },
+              {
+                "item": "link",
+                "url": "www.microsoft.com/ems",
+                "text": "Enterprise Mobility + Security Suite"
+              }
+            ],
+            "related": [
+              {
+                "name": "Office 365",
+                "icon": "office"
+              },
+              {
+                "name": "Enterprise Mobility and Security Suite"
+              },
+              {
+                "name": "Dynamics",
+                "icon": "dynamics"
+              },
+              {
+                "name": "Windows 10",
+                "icon": "windows"
+              },
+              {
+                "name": "Business Applications",
+                "icon": "bizapps"
+              }
+            ]
+          }
+
+        ]
+      }
+
+    ]
+  }
+}

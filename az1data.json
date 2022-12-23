@@ -1,7 +1,7 @@
 ﻿{
   "author": "Mark Harrison",
   "name": "azure1.dev",
-  "version": "2021.12.17",
+  "version": "2022.12.23",
   "product": {
     "name": "Azure",
     "categories": [
@@ -3411,6 +3411,24 @@
             ]
           },
           {
+            "name": "DevBox",
+            "icon": "devbox",
+            "service": "dev-box",
+            "pricing": "*",
+            "docs": "*"
+          },
+          {
+            "name": "Power Platform",
+            "icon": "power",
+            "content": [
+              {
+                "item": "link",
+                "text": "Overview - Power Platform",
+                "url": "https://powerplatform.microsoft.com/"
+              }
+            ]
+          },
+          {
             "name": "Lab Services",
             "icon": "devtestlabs",
             "content": [
@@ -4374,7 +4392,7 @@
               {
                 "item": "link",
                 "text": "Microsoft Game Stack",
-                "url": "https://developer.microsoft.com/en-us/games/solutions"
+                "url": "https://developer.microsoft.com/en-us/games/"
               },
               {
                 "item": "link",

@@ -250,27 +250,6 @@
                 "item": "link",
                 "url": "microsoft.com/research",
                 "text": "Microsoft Research"
-              },
-              {
-                "item": "space"
-              },
-              {
-                "item": "link",
-                "text": "Microsoft Quantum",
-                "url": "microsoft.com/quantum"
-              },
-              {
-                "item": "YTvideo",
-                "url": "cOUrzxyng04",
-                "text": "Quantum computing"
-              },
-              {
-                "item": "space"
-              },
-              {
-                "item": "link",
-                "url": "http://natick.research.microsoft.com",
-                "text": "Project Natick"
               }
             ]
           }
@@ -569,6 +548,16 @@
                 "item": "link",
                 "text": "Quantum Development Kit",
                 "url": "*ms*/quantum/development-kit"
+              },
+              {
+                "item": "link",
+                "text": "Microsoft Quantum",
+                "url": "microsoft.com/quantum"
+              },
+              {
+                "item": "YTvideo",
+                "url": "cOUrzxyng04",
+                "text": "Quantum computing"
               }
             ]
           }
@@ -735,31 +724,13 @@
             "content": [
               {
                 "item": "link",
-                "text": "Azure VMware Solution by CloudSimple",
-                "url": "*service*/azure-vmware-cloudsimple/"
+                "text": "Azure VMware Solution",
+                "url": "*service*/azure-vmware/"
               },
               {
                 "item": "link",
-                "text": "Azure VMware Solution by CloudSimple pricing",
-                "url": "*pricing*/azure-vmware-cloudsimple/"
-              }
-            ]
-          },
-          {
-            "name": "Scheduler",
-            "icon": "scheduler",
-            "content": [
-              {
-                "item": "link",
-                "url": "*service*/scheduler/"
-              },
-              {
-                "item": "link",
-                "url": "*pricing*/scheduler/"
-              },
-              {
-                "item": "link",
-                "url": "*docs*/scheduler/"
+                "text": "Azure VMware Solution pricing",
+                "url": "*pricing*/azure-vmware/"
               }
             ]
           }
@@ -1611,24 +1582,6 @@
             ]
           },
           {
-            "name": "SQL Stretch Database",
-            "icon": "sqlstretch",
-            "content": [
-              {
-                "item": "link",
-                "url": "*service*/sql-server-stretch-database/"
-              },
-              {
-                "item": "link",
-                "url": "*pricing*/sql-server-stretch-database/"
-              },
-              {
-                "item": "link",
-                "url": "*docs*/sql-server-stretch-database/"
-              }
-            ]
-          },
-          {
             "name": "Azure Cosmos DB",
             "icon": "cosmosdb",
             "content": [
@@ -1983,10 +1936,10 @@
             ]
           },
           {
-            "name": "Azure Purview",
+            "name": "Microsoft Purview",
             "icon": "purview",
             "service": "purview",
-            "pricing": "azure-purview",
+            "pricing": "purview",
             "docs": "*",
             "content": [
             ]
@@ -2134,9 +2087,153 @@
                 "url": "*docs*/time-series-insights/"
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Artificial Intelligence",
+        "icon": "artificialintelligence",
+        "services": [
+          {
+            "name": "Azure AI Services",
+            "icon": "appliedaiservices",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/products/ai-services/",
+                "text": "Overview"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/products/cognitive-services/",
+                "text": "Pricing"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/products/ai-services/openai-service/",
+                "text": "OpenAI Overview"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/ai-services/openai/",
+                "text": "OpenAI Documentation"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/products/ai-services/ai-content-safety/",
+                "text": "AI Content Safety Overview"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/ai-services/content-safety/",
+                "text": "AI Content Safety Documentation"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/products/ai-services/ai-translator/",
+                "text": "AI Translator Overview"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/ai-services/translator/",
+                "text": "AI Translator Documentation"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/products/ai-services/ai-speech/",
+                "text": "AI Speech Overview"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/ai-services/speech-service/",
+                "text": "AI Speech Documentation"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/products/ai-services/ai-vision/",
+                "text": "AI Vision Overview"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/ai-services/computer-vision/",
+                "text": "AI Vision Documentation"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/products/ai-services/ai-custom-vision/",
+                "text": "AI Custom Vision Overview"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/ai-services/custom-vision-service/",
+                "text": "AI Custom Vision Documentation"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/products/ai-services/ai-language/",
+                "text": "AI Language Overview"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/ai-services/language-service/",
+                "text": "AI Language Documentation"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/products/ai-services/ai-document-intelligence/",
+                "text": "AI Document Intelligence Overview"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/ai-services/document-intelligence/",
+                "text": "AI Document Intelligence Documentation"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/products/ai-services/ai-immersive-reader/",
+                "text": "AI Immersive Reader Overview"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/ai-services/immersive-reader/",
+                "text": "AI Immersive Reader Documentation"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/products/ai-video-indexer/",
+                "text": "AI Video Indexer Overview"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/azure-video-indexer/",
+                "text": "AI Video Indexer Documentation"
+              }
+
+            ]
           },
           {
-            "name": "Azure Search",
+            "name": "Azure Machine Learning",
+            "icon": "machinelearning",
+            "content": [
+              {
+                "item": "link",
+                "url": "*service*/machine-learning/",
+                "text": "Overview - Machine Learning Services"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/machine-learning/",
+                "text": "Pricing - Machine Learning Services"
+              },
+              {
+                "item": "link",
+                "url": "*docs*/machine-learning/",
+                "text": "Documentation - Machine Learning Services"
+              }
+            ]
+          },
+          {
+            "name": "Azure AI Search",
             "icon": "search",
             "content": [
               {
@@ -2152,263 +2249,69 @@
                 "url": "*docs*/search/"
               }
             ]
-          }
-        ]
-      },
-      {
-        "name": "Artificial Intelligence",
-        "icon": "artificialintelligence",
-        "services": [
-          {
-            "name": "Azure Applied AI services",
-            "icon": "appliedaiservices",
-            "content": [
-              {
-                "item": "link",
-                "url": "*ams*/product-categories/applied-ai-services/",
-                "text": "Overview"
-              }
-            ],
-            "related": [
-            ]
           },
           {
-            "name": "Azure Machine Learning",
-            "icon": "machinelearning",
-            "content": [
-              {
-                "item": "link",
-                "url": "*service*/machine-learning//",
-                "text": "Overview - Machine Learning Services"
-              },
-              {
-                "item": "link",
-                "url": "*pricing*/machine-learning//",
-                "text": "Pricing - Machine Learning Services"
-              },
-              {
-                "item": "link",
-                "url": "*docs*/machine-learning/",
-                "text": "Documentation - Machine Learning Services"
-              },
-              {
-                "item": "link",
-                "url": "*pricing*/machine-learning-studio/",
-                "text": "Pricing - Machine Learning Studio"
-              },
-              {
-                "item": "link",
-                "url": "*docs*/machine-learning/overview-what-is-machine-learning-studio",
-                "text": "Documentation - Machine Learning Studio"
-              }
-            ]
-          },
-          {
-            "name": "Cognitive Decision",
-            "icon": "cogdecision",
-            "text": "Enable informed and efficient decision-making.",
-            "content": [
-              {
-                "item": "link",
-                "url": "*service*/cognitive-services/#decisionContent"
-              },
-              {
-                "item": "link",
-                "url": "*pricing*/cognitive-services/"
-              },
-              {
-                "item": "link",
-                "url": "*docs*/cognitive-services/"
-              }
-            ],
-            "related": [
-              {
-                "name": "Anomaly Detector",
-                "icon": "cogdecisionanomalydetector"
-              },
-              {
-                "name": "Content Moderator",
-                "icon": "cogdecisioncontentmoderator"
-              },
-              {
-                "name": "Personalizer",
-                "icon": "cogdecisionpersonalizer"
-              }
-            ]
-          },
-          {
-            "name": "Cognitive Speech",
-            "icon": "cogspeech",
-            "text": " Speech enables the integration of speech processing capabilities into any app or service.",
-            "content": [
-              {
-                "item": "link",
-                "url": "*service*/cognitive-services/#speechContent"
-              },
-              {
-                "item": "link",
-                "url": "*pricing*/cognitive-services/"
-              },
-              {
-                "item": "link",
-                "url": "*docs*/cognitive-services/"
-              }
-            ],
-            "related": [
-              {
-                "name": "Speech Services",
-                "icon": "cogspeechservices"
-              },
-              {
-                "name": "Speaker Recognition",
-                "icon": "cogspeechspeakerrecognition"
-              }
-            ]
-          },
-          {
-            "name": "Cognitive Language",
-            "icon": "coglang",
-            "text": "Language services ensure apps and services can understand the meaning of unstructured text or recognize the intent behind a speaker’s utterances.",
-            "content": [
-              {
-                "item": "link",
-                "url": "*service*/cognitive-services/#langContent"
-              },
-              {
-                "item": "link",
-                "url": "*pricing*/cognitive-services/"
-              },
-              {
-                "item": "link",
-                "url": "*docs*/cognitive-services/"
-              }
-            ],
-            "related": [
-              {
-                "name": "Immersive Reader",
-                "icon": "coglangimmersivereader"
-              },
-              {
-                "name": "Language Understanding",
-                "icon": "coglangluis"
-              },
-              {
-                "name": "QnA Maker",
-                "icon": "coglanglqnamaker"
-              },
-              {
-                "name": "Text Analytics",
-                "icon": "coglangtextanalytics"
-              },
-              {
-                "name": "Translator Text",
-                "icon": "coglangtranslatortext"
-              }
-            ]
-          },
-          {
-            "name": "Cognitive Vision",
-            "icon": "cogvision",
-            "text": "Vision makes it possible for apps and services to accurately identify and analyze content within images, videos, and digital ink.",
-            "content": [
-              {
-                "item": "link",
-                "url": "*service*/cognitive-services/#visionContent"
-              },
-              {
-                "item": "link",
-                "url": "*pricing*/cognitive-services/"
-              },
-              {
-                "item": "link",
-                "url": "*docs*/cognitive-services/"
-              }
-            ],
-            "related": [
-              {
-                "name": "Computer Vision",
-                "icon": "cogvisioncomputer"
-              },
-              {
-                "name": "Custom Vision",
-                "icon": "cogvisioncustom"
-              },
-              {
-                "name": "Face",
-                "icon": "cogvisionface"
-              },
-              {
-                "name": "Form Recognizer",
-                "icon": "cogvisionformrecognizer"
-              },
-              {
-                "name": "Ink Recognizer",
-                "icon": "cogvisioninkrecognizer"
-              },
-              {
-                "name": "Video Indexer",
-                "icon": "cogvisionvideoindexer"
-              }
-            ]
-          },
-          {
-            "name": "Azure Cognitive Search",
+            "name": "Azure AI Studio",
             "icon": "cogsearch",
-            "text": "Enable apps and services to harness the power of a Web-scale, ad-free search engine with Search.",
             "content": [
               {
                 "item": "link",
-                "url": "*service*/cognitive-services/#searchContent"
+                "url": "*ams*/products/ai-studio/",
+                "text": "Overview"
               },
               {
                 "item": "link",
-                "url": "*pricing*/cognitive-services/"
+                "url": "*pricing*/ai-studio/"
               },
               {
                 "item": "link",
-                "url": "*docs*/cognitive-services/"
+                "url": "*docs*/ai-studio/"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/products/ai-model-catalog/",
+                "text": "Azure AI model catalog"
               }
-            ],
-            "related": [
+            ]
+          },
+          {
+            "name": "Azure Open DataSets",
+            "icon": "cogsearchbingimagesearch",
+            "content": [
               {
-                "name": "Bing Autosuggest",
-                "icon": "cogsearchbingautosuggest"
+                "item": "link",
+                "url": "*ams*/products/open-datasets/",
+                "text": "Overview"
               },
               {
-                "name": "Bing Custom Search",
-                "icon": "cogsearchbingcustomsearch"
+                "item": "link",
+                "url": "*pricing*/open-datasets/"
               },
               {
-                "name": "Bing Entity Search",
-                "icon": "cogsearchbingentitysearch"
+                "item": "link",
+                "url": "*docs*/open-datasets/"
+              }
+            ]
+          },
+          {
+            "name": "AI Models",
+            "icon": "cogvision",
+            "content": [
+              {
+                "item": "link",
+                "url": "*ams*/products/phi-3/",
+                "text": "Phi-3 open models"
               },
               {
-                "name": "Bing Image Search",
-                "icon": "cogsearchbingimagesearch"
+                "item": "space"
               },
               {
-                "name": "Bing Local Business Search",
-                "icon": "cogsearchbinglocalbusinesssearch"
-              },
-              {
-                "name": "Bing News Search",
-                "icon": "cogsearchbingnewssearch"
-              },
-              {
-                "name": "Bing Spell Check",
-                "icon": "cogsearchbingspellcheck"
-              },
-              {
-                "name": "Bing Video Search",
-                "icon": "cogsearchbingvideosearch"
-              },
-              {
-                "name": "Bing Visual Search",
-                "icon": "cogsearchbingvisualsearch"
-              },
-              {
-                "name": "Bing Web Search",
-                "icon": "cogsearchbingwebsearch"
+                "item": "link",
+                "url": "*ams*/products/ai-model-catalog/",
+                "text": "Azure AI model catalog"
               }
             ]
           },
@@ -2433,6 +2336,19 @@
                 "item": "link",
                 "url": "dev.botframework.com",
                 "text": "Bot framework"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/products/bot-services/health-bot/",
+                "text": "Health Bot"
+              },
+              {
+                "item": "link",
+                "url": "*pricing*/bot-services/health-bot/",
+                "text": "Health Bot pricing"
               }
             ]
           },
@@ -2491,11 +2407,6 @@
                 "item": "link",
                 "url": "*service*/media-services/media-player/",
                 "text": "Media Player"
-              },
-              {
-                "item": "link",
-                "url": "*service*/media-services/media-analytics/",
-                "text": "Media Analytics"
               },
               {
                 "item": "link",
@@ -2627,30 +2538,11 @@
             "content": [
               {
                 "item": "link",
-                "url": "dev.office.com/",
+                "url": "https://developer.microsoft.com/en-us/microsoft-365/dev-program",
                 "text": "Overview"
-              },
-              {
-                "item": "link",
-                "url": "dev.office.com/docs",
-                "text": "Documentation"
-              },
-              {
-                "item": "space"
-              },
-              {
-                "item": "link",
-                "url": "*ams*/solutions/sharepoint/",
-                "text": "Overview - SharePoint on Azure"
-              },
-              {
-                "item": "link",
-                "url": "azuremarketplace.microsoft.com/en-gb/marketplace/apps?search=sharepoint&page=1",
-                "text": "SharePoint Server on Azure VMs "
               }
             ]
           }
-
         ]
       },
       {

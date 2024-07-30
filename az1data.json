@@ -2312,6 +2312,14 @@
                 "item": "link",
                 "url": "*ams*/products/ai-model-catalog/",
                 "text": "Azure AI model catalog"
+              },
+              {
+                "item": "space"
+              },
+              {
+                "item": "link",
+                "url": "*ams*/products/ai-services/openai-service/",
+                "text": "OpenAI Overview"
               }
             ]
           },
